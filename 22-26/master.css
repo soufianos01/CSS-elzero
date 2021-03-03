@@ -1,0 +1,49 @@
+.ex1 div {
+  padding: 20px;
+  text-align: center;
+  border: 2px solid salmon;
+}
+
+.ex1 p {
+  background-color: #EEE;
+  border: inherit;
+  padding: inherit;
+}
+
+.ex2 p {
+  text-align: center;
+  font-size: 30px;
+}
+
+.ex2 .one {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.ex2 .two,
+.ex3 p {
+  font-family: 'Cairo', sans-serif;
+}
+
+.ex2 .three {
+  font-family: 'Jomhuria', cursive;
+}
+
+html {
+  font-size: 20px;
+}
+
+.ex3 p {
+  text-align: center;
+}
+
+.ex3 .one {
+  font-size: 2.5rem;
+}
+
+.ex3 .two {
+  font-size: 2rem;
+}
+
+.ex3 .three {
+  font-size: 1.5rem;
+}
