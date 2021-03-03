@@ -1,0 +1,53 @@
+.ex1 .parent {
+  background-color: #EEE;
+  width: 1000px;
+  margin: auto;
+}
+
+.ex1 .element {
+  background-color: #DDD;
+  padding: 15px 0;
+  text-align: center;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.ex1 .row1 .element {
+  width: calc((100% - 2*15px));
+  margin-top: 15px;
+}
+
+.ex1 .row2 .element {
+  width: calc((100% - 3*15px)/2);
+}
+
+.ex1 .row3 .element {
+  width: calc((100% - 4*15px)/3);
+}
+
+.ex1 .row4 .element {
+  width: calc((100% - 5*15px)/4);
+}
+
+.clear {
+  clear: both;
+}
+
+.ex2 div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #B3B3B3; /* Get The Background From Image */
+  color: black;
+}
+
+.ex2 .one {
+  background-color: #b3b3b310
+}
+
+.ex2 .two {
+  opacity: .1;
+}
