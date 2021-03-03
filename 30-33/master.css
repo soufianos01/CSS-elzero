@@ -1,0 +1,149 @@
+.ex1 > div {
+  position: relative;
+}
+
+.ex1 > div > div {
+  width: 100px;
+  height: 100px;
+  position: absolute
+}
+
+.ex1 .green {
+  background-color: green;
+  z-index: 1;
+  top: 30px;
+  left: 30px;
+}
+
+.ex1 .red {
+  background-color: salmon;
+  z-index: 2;
+  top: 40px;
+  left: 40px;
+}
+
+.ex1 .blue {
+  background-color: skyblue;
+  z-index: 0;
+  top: 20px;
+  left: 20px;
+}
+
+.ex1 .black {
+  background-color: black;
+  top: 30px;
+  left: 20px;
+  z-index: -1;
+}
+
+.clear {
+  clear: both;
+  height: 150px;
+}
+
+.ex2 .content div {
+  width: 400px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #EEE;
+  line-height: 25px;
+  position: relative;
+  border: 2px solid;
+  border-right-color: #3596F3;
+  border-left-color: #3596F3;
+  border-top-color: #f44336;
+  border-bottom-color: #f44336;
+}
+
+.ex2 .content div span {
+  position: absolute;
+  color: white;
+  background-color: #3596F3;
+  padding: 3px 10px;
+
+}
+
+.ex2 .content div .top-left {
+  top: -15px;
+  left: -15px;
+  border-right: 2px solid #f44336;
+}
+
+.ex2 .content div .bottom-left {
+  bottom: -15px;
+  left: -15px;
+  border-right: 2px solid #f44336;
+}
+
+.ex2 .content div .top-right {
+  top: -15px;
+  right: -15px;
+  border-left: 2px solid #f44336;
+}
+
+.ex2 .content div .bottom-right {
+  bottom: -15px;
+  right: -15px;
+  border-left: 2px solid #f44336;
+}
+
+.ex3 .content > ul {
+  width: 400px;
+  margin: auto;
+  list-style: none;
+}
+
+.ex3 .content > ul > li {
+  padding: 10px;
+  background-color: #EEE;
+  margin: 5px;
+}
+
+ol > li,
+.js > li {
+  background-color: white;
+  padding: 5px;
+  margin: 3px
+}
+
+.css {
+  list-style: upper-roman;
+}
+
+.ex4 table {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.ex4 td {
+  padding: 20px;
+  background-color: #EEE;
+}
+
+.ex4 th {
+  background-color: #404040;
+  color: white;
+  padding: 20px;
+}
+
+.ex4 img {
+  width: 50px;
+}
+
+.ex4 .view,
+.ex4 .delete {
+  display: inline-block;
+  padding: 3px 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 80%;
+}
+
+.ex4 .view {
+  background-color: #36A9F4;
+}
+
+.ex4 .delete {
+  background-color: #E91E63;
+}
