@@ -1,0 +1,68 @@
+.ex1 div {
+  width: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: blueviolet;
+  color: white;
+}
+
+.ex1 .second {
+  background-color: rgba(137, 43, 226, 0.5);
+}
+
+.ex1 .third {
+  background-color: rgba(137, 43, 226, 0.1);
+}
+
+.block {
+  width: 844px;
+  margin: auto;
+}
+
+.block div {
+  width: 400px;
+  height: 400px;
+  background-color: #EEE;
+  margin: 10px;
+  display: inline-block;
+  background-image: url('img/bg200x200.jpg');
+}
+
+.ex2 .first,
+.ex3 .first,
+.ex4 .first {
+  background-repeat: no-repeat;
+}
+
+.ex2 .second,
+.ex3 .second,
+.ex4 .second {
+  background-repeat: repeat-y;
+}
+
+.ex2 .third,
+.ex3  .third,
+.ex4  .third {
+  background-repeat: repeat-x;
+}
+
+.ex3 .second,
+.ex4 .second {
+  background-position: right;
+}
+
+.ex3 .third,
+.ex4 .third {
+  background-position: bottom;
+}
+
+.ex4 .first,
+.ex4 .second,
+.ex4 .third {
+  background-size: 80%;
+}
+
+.ex4 .fourth {
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
