@@ -1,0 +1,23 @@
+.ex1 .parent .child .title {
+  color: red
+}
+
+.ex1 .parent .title {
+  color: blue;
+}
+
+.ex1 p,
+.ex1 .title {
+  color: green;
+}
+
+.ex2 div {
+  font-size: large;
+  width: 400px;
+  max-height: 30px;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  background-color:brown;
+  overflow-y: hidden;
+}
