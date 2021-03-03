@@ -1,0 +1,52 @@
+.ex1 div {
+  background-color: #DDD;
+  display: inline-block;
+  padding: 50px;
+  margin: 20px;
+  outline: 5px solid #000;
+}
+
+.ex1 .first {
+  border: 5px solid red;
+}
+
+.ex1 .second {
+  border: 5px solid;
+  border-top-color: blue;
+  border-bottom-color: blue;
+  border-left-color: green;
+  border-right-color: green;
+}
+
+.ex1 .third {
+  border: 5px dotted;
+  border-top-color: red;
+  border-bottom-color: blue;
+  border-left-color: yellow;
+  border-right-color: green;
+}
+
+.ex2 > div {
+  width: 400px;
+  background-color: #DDD;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ex2 .content {
+  padding: 10px;
+}
+
+.ex2 .first .content {
+  border-left: 5px solid rgb(235, 27, 190);
+}
+.ex2 .second .content {
+  border-left: 5px solid skyblue;
+}
+.ex2 .third .content {
+  border-left: 5px solid green;
+}
+
+.ex2 .second {
+  visibility: hidden;
+}
