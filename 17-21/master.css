@@ -1,0 +1,61 @@
+.ex1 .content h1 {
+  text-align: center;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px rgb(167, 26, 68), 3px 3px blue;
+}
+
+.ex2 .content {
+  text-align: center;
+}
+
+.ex2 .content .one {
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+.ex2 .content .two {
+  text-transform: capitalize;
+  font-size: x-large;
+}
+
+.ex2 .content .three {
+  text-transform: lowercase;
+  font-size: large;
+}
+
+.ex3 div {
+  background-color: #EEE;
+  font-size: large;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.ex3 .two,
+.ex3 .three {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ex3 .two {
+  text-overflow: clip;
+}
+
+.ex3 .three {
+  text-overflow: ellipsis;
+}
+
+.ex4 div {
+  text-align: center;
+}
+
+.ex4 a {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  background-color: #1D9688;
+  text-transform: capitalize;
+  padding: 20px 40px;
+  display: inline-block;
+  border-bottom: 10px solid #0B514A;
+}
